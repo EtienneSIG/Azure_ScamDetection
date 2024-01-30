@@ -4,7 +4,12 @@
 
 This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT-4 API to analyze and tell if the image is an scams. It extracts the text from the image (OCR), sends it to the GPT-4 model for translation and returns the result.
 
-## Dependencies
+## Azure requirement
+ - Have a computer vision service deployed in your tenant ( https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/cognitive-services-computer-vision-api/)
+ - Have an Azure Open AI service with GPT4 in your tenant ( https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal )
+   
+## Python requirement
+### Python Dependencies
 
 - `azure.cognitiveservices.vision.computervision`
 - `azure.cognitiveservices.vision.computervision.models`
@@ -18,7 +23,7 @@ This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT
 - `nltk`
 - `json`
 
-## Mandatory - Python version
+### Mandatory - Python version
 Version >= 3.1X
 
 ## Mandatory - Configuration
