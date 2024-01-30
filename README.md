@@ -4,6 +4,13 @@
 
 This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT-4 API to analyze and tell if the image is an scams. It extracts the text from the image (OCR), sends it to the GPT-4 model for analysis.
 
+Input :
+(https://cdnx.nextinpact.com/data-next/image/bd/171324.jpeg)
+
+
+Output : 
+This message is likely a scam. Scam messages often use scare tactics to convince users that their computers are infected with viruses or other malware. They usually ask for personal information such as credit card details, or they may ask you to contact a certain number or visit a particular website. In this case, the message is asking you to call a number that is supposedly for Windows technical support. However, Microsoft does not make unsolicited phone calls or send out unsolicited email messages to request personal or financial information, or to provide technical support to fix your computer. Always be wary of any unsolicited message that requests for your personal information or involves money.
+
 ## Azure requirement
  - Have a computer vision service deployed in your tenant ( https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/cognitive-services-computer-vision-api/)
  - Have an Azure Open AI service with GPT4 in your tenant ( https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal )
