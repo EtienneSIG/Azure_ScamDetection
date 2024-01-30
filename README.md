@@ -5,7 +5,7 @@
 This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT-4 API to analyze and tell if the image is an scams. It extracts the text from the image (OCR), sends it to the GPT-4 model for analysis.
 
 Input :
-(https://cdnx.nextinpact.com/data-next/image/bd/171324.jpeg)
+![ScamImage.](https://cdnx.nextinpact.com/data-next/image/bd/171324.jpeg)
 
 
 Output : 
