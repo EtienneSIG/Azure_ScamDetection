@@ -81,9 +81,9 @@ This function counts the number of tokens in a given text using the `nltk` libra
 ## Command Line Execution
 The script can be run from the command line with the following syntax:
 ```
-python ArnaquesDetection.py -i <image>
+python scamDetection.py -i <image or image url>
 ```
-where `<filename>` is the name of the file to be translated.
+where `<image or image url>` is the name of the file to be anlayzed.
 
 ## Main Execution
 
