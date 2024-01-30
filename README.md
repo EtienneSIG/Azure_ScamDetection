@@ -9,6 +9,9 @@ This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT
  - Have an Azure Open AI service with GPT4 in your tenant ( https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal )
    
 ## Python requirement
+### version
+Version >= 3.1X
+
 ### Dependencies
 
 - `azure.cognitiveservices.vision.computervision`
@@ -22,9 +25,6 @@ This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT
 - `openai`
 - `nltk`
 - `json`
-
-### version
-Version >= 3.1X
 
 ## Mandatory - Configuration
 The script uses a configuration file (config.json) to load the following parameters:
