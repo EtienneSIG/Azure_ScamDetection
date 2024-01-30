@@ -78,6 +78,13 @@ This function counts the number of tokens in a given text using the `nltk` libra
 
 - The number of tokens in the text
 
+## Command Line Execution
+The script can be run from the command line with the following syntax:
+```
+python ArnaquesDetection.py -i <image>
+```
+where `<filename>` is the name of the file to be translated.
+
 ## Main Execution
 
 In the main execution, the script loads configuration details from a JSON file (API keys, endpoints, model ID, API version, etc.), performs text extraction from a given image URL using the `ComputerVision` function, and then sends the extracted text for translation using the `openaiTraduction` function. The result is then printed to the console.
