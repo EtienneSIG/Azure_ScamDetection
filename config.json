@@ -1,0 +1,9 @@
+{
+    "COMPLETIONS_MODEL":"gpt-4-32k",
+    "OPENAI_API_BASE":"",
+    "OPENAI_API_VERSION":"",
+    "OPENAI_API_KEY":"",
+    "OPENAI_NB_TOKENS":"32768",
+    "COMPUTER_VISION_KEY" : "",
+    "COMPUTER_VISION_ENDPOINT" : ""
+}
