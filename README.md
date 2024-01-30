@@ -18,7 +18,7 @@ This script uses the Azure Cognitive Services Computer Vision API and OpenAI GPT
 - `nltk`
 - `json`
 
-  ## Mandatory - Python version
+## Mandatory - Python version
 Version >= 3.1X
 
 ## Mandatory - Configuration
